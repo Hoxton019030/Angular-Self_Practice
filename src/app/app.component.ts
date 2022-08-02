@@ -5,6 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+@Component({
+  selector:'hello-world',
+  template:`
+  <h2>Hello world</h2>
+  <p>This is my first Component</p>`
+})
 
 export class AppComponent {
   title = 'todo';
@@ -33,3 +39,6 @@ export class AppComponent {
   }
 
 }
+
+
+
